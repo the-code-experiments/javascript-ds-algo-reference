@@ -4,7 +4,7 @@
 
 - [x] Ch0 Array
 - [x] Ch1 Stack
-- [ ] Ch2 Queue
+- [x] Ch2 Queue
 - [ ] Ch3 Linked List
 - [ ] Ch4 Sorting (Bubble, Insertion, merge, quick, selection)
 - [ ] Ch5 Tree
