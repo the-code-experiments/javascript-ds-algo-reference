@@ -31,7 +31,7 @@ Stack.prototype.pop = function () {
  * @function print
  */
 Stack.prototype.print = function () {
-  console.log('Stack: ', this.stack.join(' '));
+  console.log('Stack: ', this.stack.join(' '))
 }
 
 /**
@@ -39,7 +39,7 @@ Stack.prototype.print = function () {
  * @function peek
  */
 Stack.prototype.peek = function () {
-  return this.stack[this.stack.length - 1];
+  return this.stack[this.stack.length - 1]
 }
 
 /**
