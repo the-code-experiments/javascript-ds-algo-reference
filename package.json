@@ -1,0 +1,14 @@
+{
+  "name": "learning-algorithms",
+  "version": "0.0.1",
+  "description": "Learning and practice data structure and algorithms examples in JavaScript",
+  "repository": "https://github.com/Code-by-practice/learning-algorithms.git",
+  "author": "hegdeashwin <ashwin.hegde3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs": "jsdoc -d docs codes"
+  },
+  "dependencies": {
+    "jsdoc": "^3.4.3"
+  }
+}
