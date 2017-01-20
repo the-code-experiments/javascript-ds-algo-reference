@@ -1,12 +1,11 @@
 /**
  * Data Structure: Array
  * ES6 version
- * 
  * Run `node Eg1_array_es6.js` and see the output
  */
-class Array {
-  constructor() {
-    this.array = [];
+class MyArray {
+  constructor () {
+    this.array = []
   }
 
   /**
@@ -14,9 +13,9 @@ class Array {
    * @params {number} data - Data to be added into an array
    * @function add
    */
-  add(data) {
+  add (data) {
     console.log('Add %d into an array', data)
-    this.array.push(data);
+    this.array.push(data)
   }
 
   /**
@@ -24,11 +23,11 @@ class Array {
    * @params {number} data - Data to be removed from an array
    * @function remove
    */
-  remove(data) {
-    console.log('Removed %d from an array', data);
-    this.array = this.array.filter(function(current) {
-      return current !== data;
-    });
+  remove (data) {
+    console.log('Removed %d from an array', data)
+    this.array = this.array.filter((current) => {
+      return current !== data
+    })
   }
 
   /**
@@ -36,26 +35,26 @@ class Array {
    * @params {number} index - Index number
    * @function getIndex
    */
-  getIndex(index) {
-    var _indexValue = this.array[index];
+  getIndex (index) {
+    var _indexValue = this.array[index]
 
-    console.log('Index value of %d is %d', index, _indexValue);
-    return _indexValue;
+    console.log('Index value of %d is %d', index, _indexValue)
+    return _indexValue
   }
 
   /**
    * Get an array length
    * @function length
    */
-  length() {
-    return this.array.length;
+  length () {
+    return this.array.length
   }
 
   /**
    * Print an array as string
    * @function print
    */
-  print() {
+  print () {
     console.log('Array: ', this.array.join(' '));
   }
 
@@ -64,24 +63,24 @@ class Array {
    * @params {number} data - Data to be searched into an array
    * @function search
    */
-  search(data) {
+  search (data) {
     var foundIndex = this.array.indexOf(data);
 
     if (foundIndex !== -1) {
       console.log('%d is found at index %d', data, foundIndex);
-      return foundIndex;
+      return foundIndex
     } else {
       console.log('%d is not found in an array', data);
     }
 
-    return null;
+    return null
   }
 }
 
 /**
  * Create Array instance
  */
-var array = new Array();
+var array = new MyArray()
 
 /**
  * Add few data into an array
@@ -94,7 +93,7 @@ array.add(20);
 /**
  * Print an array to verify data got added into an array
  */
-array.print();
+array.print ();
 
 /**
  * Search into an array
@@ -104,7 +103,7 @@ array.search(90);
 /**
  * Get array length
  */
-console.log('Current array length is %d', array.length());
+console.log('Current array length is %d', array.length ());
 
 /**
  * Get index's value
@@ -119,4 +118,4 @@ array.remove(10);
 /**
  * Again print array
  */
-array.print();
+array.print ();
