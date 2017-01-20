@@ -1,45 +1,92 @@
+/**
+ * Data Structure: Stack
+ * ES6 version
+ * Run `node Eg1_stack_es6.js` and see the output
+ */
+
 class Stack {
-  constructor() {
-    this.stack = [];
+  constructor () {
+    this.stack = []
   }
 
-  push(value) {
-    console.log('Pushed %d into the stack', value)
-    this.stack.push(value);
+  /**
+   * Push data into the stack
+   * @params {number} data - Data to be pushed into the stack
+   * @function push
+   */
+  push (data) {
+    console.log('Push %d into the stack', data)
+    this.stack.push(data)
   }
 
-  pop() {
-    return this.stack.pop();
+  /**
+   * Pop data from the stack
+   * @function pop
+   */
+  pop () {
+    console.log('Pop from the stack')
+    return this.stack.pop()
   }
 
-  print() {
-    console.log('Stack: ', this.stack.join(' '));
+  /**
+   * Print the stack as string
+   * @function print
+   */
+  print () {
+    console.log('Stack: ', this.stack.join(' '))
   }
 
-  length() {
-    return this.stack.length;
+  /**
+   * Get the peek of the stack
+   * @function peek
+   */
+  peek () {
+    return this.stack[this.stack.length - 1]
   }
 
-  peek() {
-    return this.stack[this.stack.length - 1];
+  /**
+   * Get the stack length
+   * @function length
+   */
+  length () {
+    return this.stack.length
   }
-};
+}
 
-let stack = new Stack();
+/**
+ * Create Stack instance
+ */
+var stack = new Stack()
 
-stack.push(5);
-stack.push(10);
-stack.push(15);
-stack.push(20);
+/**
+ * Add few data into the stack
+ */
+stack.push(5)
+stack.push(10)
+stack.push(15)
+stack.push(20)
 
-stack.print();
+/**
+ * Print the stack to verify data got added into the stack
+ */
+stack.print()
 
-console.log('Stack length: ', stack.length());
+/**
+ * Get stack length
+ */
+console.log('Current stack length is %d', stack.length())
 
-console.log('Stack peek reached to: ', stack.peek());
+/**
+ * Get the peek of the stack
+ */
+console.log('%d is the stack peek: ', stack.peek())
 
-console.log('Pop ' + stack.pop() + ' from Stack');
+/**
+ * Pop data from the stack
+ */
+stack.pop()
 
-console.log('Check again Stack length: ', stack.length());
-
-stack.print();
+/**
+ * Again check the stack print
+ */
+stack.print()
