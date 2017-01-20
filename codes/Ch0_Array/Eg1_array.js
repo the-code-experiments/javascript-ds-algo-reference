@@ -14,7 +14,7 @@ function Array() {
  * @function add
  */
 Array.prototype.add = function(data) {
-  console.log('Add %d into an array', data)
+  console.log('Add %d into an array', data);
   this.array.push(data);
 }
 

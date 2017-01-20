@@ -1,6 +1,6 @@
 /**
  * Data Structure: Array
- * ES5 version
+ * ES6 version
  * 
  * Run `node Eg1_array_es6.js` and see the output
  */
