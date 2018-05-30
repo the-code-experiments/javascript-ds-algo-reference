@@ -1,13 +1,32 @@
-# learning-algorithms
+# JavaScript Data Structure and Algorithms References
 
 ## Data Structure
 
-- [x] Ch0 Array
-- [x] Ch1 Stack
-- [x] Ch2 Queue
-- [ ] Ch3 Linked List
-- [ ] Ch4 Sorting (Bubble, Insertion, merge, quick, selection)
-- [ ] Ch5 Tree
-- [ ] Ch6 Hash Table
-- [ ] Ch7 Graph
-- [ ] Ch8 Set
+- [] Array
+- [] Stack
+- [] Queue
+- [] Linkedin List
+- [] Tree
+- [] Graph
+- [] Heap
+- [] Hash Table
+
+## Algorithms
+
+### Search
+
+- [] Linear Search
+- [] Binary Search
+
+### Sorting
+
+- [] Bubble Sort
+- [] Selection Sort
+- [] Insertion Sort
+- [] Heap Sort
+- [] Merge Sort
+- [] Quick Sort
+- [] Shell Sort
+- [] Counting Sort
+- [] Radix Sort
+
