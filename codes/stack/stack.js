@@ -9,23 +9,23 @@ module.exports = class Stack {
   }
 
   /**
-   * Check if the Stack is empty or not
+   * Check if the stack is empty or not
    */
   isEmpty() {
     return !this.stack.length ? false : true;
   }
 
   /**
-   * Push the data into an Stack in last-in way
+   * Push the data into an stack in last-in way
    * @param {*} data number|string|object
    */
   push(data) {
-    // debug(`\nLOG: Push ${data} into the stack`);
+    debug(`\nLOG: Push ${data} into the stack`);
     this.stack.push(data);
   }
 
   /**
-   * Pop the data from the Stack in last-out way
+   * Pop the data from the stack in last-out way
    */
   pop() {
     if (!this.isEmpty()) {
@@ -35,16 +35,16 @@ module.exports = class Stack {
   }
 
   /**
-   * Print the Stack content
+   * Print the stack content
    */
   print() {
     const printData = this.stack.join(' ');
-    debug(`\nLOG: Here is the Stack content ${printData}`);
+    debug(`\nLOG: Here is the stack content ${printData}`);
     return this.stack.join(' ');
   }
 
   /**
-   * Get the peek of the Stack without modifying the stack
+   * Get the peek of the stack without modifying the stack
    */
   peek() {
     const peekData = this.stack[this.stack.length - 1];
@@ -53,7 +53,7 @@ module.exports = class Stack {
   }
 
   /**
-   * Get the length of the Stack
+   * Get the length of the stack
    */
   length() {
     const stackLen = this.stack.length;
