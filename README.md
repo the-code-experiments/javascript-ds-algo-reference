@@ -25,7 +25,7 @@ npm run test:debug
 
 ## Data Structure
 
-- [ ] Array
+- [x] [Array](https://github.com/the-code-experiments/javascript-ds-algo-reference/tree/develop/codes/array)
 - [x] [Stack](https://github.com/the-code-experiments/javascript-ds-algo-reference/tree/develop/codes/stack)
 - [ ] Queue
 - [ ] Linkedin List
