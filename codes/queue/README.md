@@ -11,8 +11,13 @@ This makes the queue a __FIFO (First-In-First-Out)__ data structure
 
 ## Diagrams
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Fifo_queue.png" alt="Diagram to represent queue data structure" />
+__Diagram 1:__
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Fifo_queue.png" alt="Diagram 1 to represent queue data structure" />
+
+__Diagram 2:__
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg" alt="Diagram 2 to represent queue data structure" />
 
 ## References
 

@@ -28,7 +28,7 @@ npm run test:debug
 - [x] [Array](https://github.com/the-code-experiments/javascript-ds-algo-reference/tree/develop/codes/array)
 - [x] [Stack](https://github.com/the-code-experiments/javascript-ds-algo-reference/tree/develop/codes/stack)
 - [x] [Queue](https://github.com/the-code-experiments/javascript-ds-algo-reference/tree/develop/codes/queue)
-- [ ] Linkedin List
+- [ ] Linked List
 - [ ] Tree
 - [ ] Graph
 - [ ] Heap
