@@ -3,7 +3,7 @@
 ## Data Structure
 
 - [ ] Array
-- [x] [Stack](javascript-ds-algo-reference/tree/master/codes/stack)
+- [x] [Stack](https://github.com/the-code-experiments/javascript-ds-algo-reference/tree/develop/codes/stack)
 - [ ] Queue
 - [ ] Linkedin List
 - [ ] Tree
