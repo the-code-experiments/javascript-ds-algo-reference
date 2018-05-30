@@ -1,21 +1,16 @@
 {
-  "name": "learning-algorithms",
+  "name": "javascript-ds-algo-reference",
   "version": "0.0.1",
-  "description": "Learning and practice data structure and algorithms examples in JavaScript",
+  "description": "A complete data structure and algorithm references for JavaScript",
   "repository": "https://github.com/Code-by-practice/learning-algorithms.git",
   "author": "hegdeashwin <ashwin.hegde3@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "docs": "jsdoc -d docs codes",
-    "lint": "eslint codes",
-    "lint:fix": "eslint --fix codes"
+    "test": "jest",
+    "test:debug": "DEBUG=* jest"
   },
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.13.1",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1",
-    "jsdoc": "^3.4.3"
+    "jest": "^23.0.1",
+    "jest-cli": "^23.0.1"
   }
 }
