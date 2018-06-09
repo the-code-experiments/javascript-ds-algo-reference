@@ -3,13 +3,13 @@ const Stack = require('../stack');
 describe('Stack ::', () => {
   it('should check if the stack is empty', () => {
     const stack = new Stack();
-    expect(stack.isEmpty()).toBeFalsy();
+    expect(stack.isEmpty()).toBeTruthy();
   });
 
   it('should check if the stack is not empty', () => {
     const stack = new Stack();
     stack.push(1);
-    expect(stack.isEmpty()).toBeTruthy();
+    expect(stack.isEmpty()).toBeFalsy();
   });
 
   it('should check warning for pop the empty stack', () => {

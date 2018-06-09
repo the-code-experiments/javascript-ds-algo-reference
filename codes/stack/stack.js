@@ -12,7 +12,7 @@ module.exports = class Stack {
    * Check if the stack is empty or not
    */
   isEmpty() {
-    return !this.stack.length ? false : true;
+    return !this.stack.length ? true : false;
   }
 
   /**
@@ -28,7 +28,7 @@ module.exports = class Stack {
    * Pop the data from the stack in last-out way
    */
   pop() {
-    if (!this.isEmpty()) {
+    if (this.isEmpty()) {
       return 'Warning: no data to Pop';
     }
     return this.stack.pop();
