@@ -6,7 +6,7 @@
   "author": "hegdeashwin <ashwin.hegde3@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "test:debug": "DEBUG=* jest"
   },
   "devDependencies": {
