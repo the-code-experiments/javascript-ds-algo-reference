@@ -1,13 +1,19 @@
 # Stack
 
-A stack is an abstract data type that serves as a collection of elements
+A stack is an abstract data type that serves as a collection of elements.
+
+## Order
+
+* __LIFO__ - Last In First Out
 
 ## Pricipal operations
 
-* __Push__ - which adds an element to the collection
-* __Pop__ - which removes the most recently added element that was not yet removed
+* __Push__ - adds an element to the collection
+* __Pop__ - removes the most recently added element that was not yet removed
 
-The order in which elements come off a stack gives rise to its alternative name, __LIFO (Last-In-First-Out)__. A __peek__ operation may give access to the top without modifying the stack.
+### Extended
+
+* __peek__ - give access to the top element without modifying the stack.
 
 ## Diagrams
 
